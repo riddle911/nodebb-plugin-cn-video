@@ -43,12 +43,12 @@ var regexs = {
 	qq       : [
 		//http://v.qq.com/cover/d/dx0qrf7tskzdprn.html?vid=(c0170z7ahr8)
 		//http://v.qq.com/x/cover/dx0qrf7tskzdprn.html?vid=(c0170z7ahr8)
-		/<a href="(?:https?:\/\/)?v.qq.com(?:\/\w*){1,3}\/\w*.html\?vid=(\w*)(&.*)?"[^<]*?>.[^<]*<\/a>/gm,
+		//<a href="(?:https?:\/\/)?v.qq.com(?:\/\w*){1,3}\/\w*.html\?vid=(\w*)(&.*)?"[^<]*?>.[^<]*<\/a>/gm,
 		//http://v.qq.com/cover/n/nwpc69jp1freit0/(j0018p8jjv9).html
 		//http://v.qq.com/page/n/n/9/(n0157o4ddn9).html
 		//http://v.qq.com/boke/page/o/0/9/(o0170u5gah9).html
 		//http://v.qq.com/x/page/(o0170u5gah9).html
-		/<a href="(?:https?:\/\/)?v.qq.com(?:\/\w*){2,5}\/(\w*).html(\?.*)?"[^<]*?>.[^<]*<\/a>/gm
+		//<a href="(?:https?:\/\/)?v.qq.com(?:\/\w*){2,5}\/(\w*).html(\?.*)?"[^<]*?>.[^<]*<\/a>/gm
 	],
 	sohu     : [
 		//http://my.tv.sohu.com/us/(240033200)/(81568145).shtml
